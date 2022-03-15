@@ -29,7 +29,6 @@ var getStatusCode = function (url, callback) {
       callback(null, resp.statusCode);
     }
   });
-
 };
 
 // Export these functions so we can test them and reuse them in later exercises
